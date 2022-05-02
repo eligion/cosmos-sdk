@@ -1,10 +1,10 @@
 ---
-project_name: cosmos-sdk
+project_name: custom-cosmos-sdk
 
 release:
   github:
-    owner: cosmos
-    name: cosmos-sdk
+    owner: eligion
+    name: custom-cosmos-sdk
 
 builds:
   - skip: true
