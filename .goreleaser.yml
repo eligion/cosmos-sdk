@@ -3,7 +3,7 @@ project_name: cosmos-sdk
 
 release:
   github:
-    owner: cosmos
+    owner: eligion
     name: cosmos-sdk
 
 builds:
