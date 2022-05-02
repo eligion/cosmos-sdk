@@ -7,17 +7,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/auth/legacy/legacytx"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/eligion/cosmos-sdk/client"
+	"github.com/eligion/cosmos-sdk/codec"
+	cryptocodec "github.com/eligion/cosmos-sdk/crypto/codec"
+	"github.com/eligion/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/eligion/cosmos-sdk/simapp"
+	"github.com/eligion/cosmos-sdk/testutil"
+	"github.com/eligion/cosmos-sdk/testutil/testdata"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	authclient "github.com/eligion/cosmos-sdk/x/auth/client"
+	"github.com/eligion/cosmos-sdk/x/auth/legacy/legacytx"
+	authtypes "github.com/eligion/cosmos-sdk/x/auth/types"
 )
 
 var (

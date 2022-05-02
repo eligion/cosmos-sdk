@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	"github.com/eligion/cosmos-sdk/x/slashing/types"
 )
 
 type msgServer struct {

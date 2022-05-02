@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	sdkerrors "github.com/eligion/cosmos-sdk/types/errors"
+	"github.com/eligion/cosmos-sdk/x/staking/types"
 )
 
 // return a specific delegation

@@ -1,14 +1,14 @@
 package v043
 
 import (
-	"github.com/cosmos/cosmos-sdk/client"
-	v040bank "github.com/cosmos/cosmos-sdk/x/bank/legacy/v040"
-	v043bank "github.com/cosmos/cosmos-sdk/x/bank/legacy/v043"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
-	v040gov "github.com/cosmos/cosmos-sdk/x/gov/legacy/v040"
-	v043gov "github.com/cosmos/cosmos-sdk/x/gov/legacy/v043"
-	gov "github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/eligion/cosmos-sdk/client"
+	v040bank "github.com/eligion/cosmos-sdk/x/bank/legacy/v040"
+	v043bank "github.com/eligion/cosmos-sdk/x/bank/legacy/v043"
+	bank "github.com/eligion/cosmos-sdk/x/bank/types"
+	"github.com/eligion/cosmos-sdk/x/genutil/types"
+	v040gov "github.com/eligion/cosmos-sdk/x/gov/legacy/v040"
+	v043gov "github.com/eligion/cosmos-sdk/x/gov/legacy/v043"
+	gov "github.com/eligion/cosmos-sdk/x/gov/types"
 )
 
 // Migrate migrates exported state from v0.40 to a v0.43 genesis state.

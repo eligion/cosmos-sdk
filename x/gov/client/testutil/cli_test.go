@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/eligion/cosmos-sdk/testutil/network"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	"github.com/eligion/cosmos-sdk/x/gov/types"
 
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

@@ -11,10 +11,10 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	"gopkg.in/yaml.v2"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/eligion/cosmos-sdk/codec"
+	codectypes "github.com/eligion/cosmos-sdk/codec/types"
+	cryptotypes "github.com/eligion/cosmos-sdk/crypto/types"
+	sdk "github.com/eligion/cosmos-sdk/types"
 )
 
 var (

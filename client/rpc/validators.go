@@ -11,12 +11,12 @@ import (
 	"github.com/spf13/cobra"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
+	"github.com/eligion/cosmos-sdk/client"
+	"github.com/eligion/cosmos-sdk/client/flags"
+	cryptocodec "github.com/eligion/cosmos-sdk/crypto/codec"
+	cryptotypes "github.com/eligion/cosmos-sdk/crypto/types"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	"github.com/eligion/cosmos-sdk/types/rest"
 )
 
 // TODO these next two functions feel kinda hacky based on their placement

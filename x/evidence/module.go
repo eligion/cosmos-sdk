@@ -13,18 +13,18 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	eviclient "github.com/cosmos/cosmos-sdk/x/evidence/client"
-	"github.com/cosmos/cosmos-sdk/x/evidence/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/evidence/client/rest"
-	"github.com/cosmos/cosmos-sdk/x/evidence/keeper"
-	"github.com/cosmos/cosmos-sdk/x/evidence/simulation"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/eligion/cosmos-sdk/client"
+	"github.com/eligion/cosmos-sdk/codec"
+	codectypes "github.com/eligion/cosmos-sdk/codec/types"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	"github.com/eligion/cosmos-sdk/types/module"
+	simtypes "github.com/eligion/cosmos-sdk/types/simulation"
+	eviclient "github.com/eligion/cosmos-sdk/x/evidence/client"
+	"github.com/eligion/cosmos-sdk/x/evidence/client/cli"
+	"github.com/eligion/cosmos-sdk/x/evidence/client/rest"
+	"github.com/eligion/cosmos-sdk/x/evidence/keeper"
+	"github.com/eligion/cosmos-sdk/x/evidence/simulation"
+	"github.com/eligion/cosmos-sdk/x/evidence/types"
 )
 
 var (

@@ -8,16 +8,16 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/server"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	authvesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/eligion/cosmos-sdk/client"
+	"github.com/eligion/cosmos-sdk/client/flags"
+	"github.com/eligion/cosmos-sdk/crypto/keyring"
+	"github.com/eligion/cosmos-sdk/server"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	authtypes "github.com/eligion/cosmos-sdk/x/auth/types"
+	authvesting "github.com/eligion/cosmos-sdk/x/auth/vesting/types"
+	banktypes "github.com/eligion/cosmos-sdk/x/bank/types"
+	"github.com/eligion/cosmos-sdk/x/genutil"
+	genutiltypes "github.com/eligion/cosmos-sdk/x/genutil/types"
 )
 
 const (

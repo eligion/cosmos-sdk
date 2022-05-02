@@ -3,17 +3,17 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/eligion/cosmos-sdk/baseapp"
+	"github.com/eligion/cosmos-sdk/codec"
+	cryptotypes "github.com/eligion/cosmos-sdk/crypto/types"
+	"github.com/eligion/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/eligion/cosmos-sdk/simapp/params"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	simtypes "github.com/eligion/cosmos-sdk/types/simulation"
+	"github.com/eligion/cosmos-sdk/x/bank/keeper"
+	"github.com/eligion/cosmos-sdk/x/bank/types"
+	distributiontypes "github.com/eligion/cosmos-sdk/x/distribution/types"
+	"github.com/eligion/cosmos-sdk/x/simulation"
 )
 
 // Simulation operation weights constants

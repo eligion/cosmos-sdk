@@ -4,24 +4,24 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/types/query"
+	"github.com/eligion/cosmos-sdk/types/query"
 
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting/exported"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/eligion/cosmos-sdk/x/auth/vesting/exported"
+	minttypes "github.com/eligion/cosmos-sdk/x/mint/types"
 
 	"github.com/stretchr/testify/suite"
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	vesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/eligion/cosmos-sdk/baseapp"
+	"github.com/eligion/cosmos-sdk/simapp"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	authkeeper "github.com/eligion/cosmos-sdk/x/auth/keeper"
+	authtypes "github.com/eligion/cosmos-sdk/x/auth/types"
+	vesting "github.com/eligion/cosmos-sdk/x/auth/vesting/types"
+	"github.com/eligion/cosmos-sdk/x/bank/keeper"
+	"github.com/eligion/cosmos-sdk/x/bank/types"
 )
 
 const (

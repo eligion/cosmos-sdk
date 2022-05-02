@@ -6,10 +6,10 @@ import (
 	"github.com/gogo/protobuf/proto"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/eligion/cosmos-sdk/codec"
+	codectypes "github.com/eligion/cosmos-sdk/codec/types"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	sdkerrors "github.com/eligion/cosmos-sdk/types/errors"
 )
 
 // NewHistoricalInfo will create a historical information struct from header and valset

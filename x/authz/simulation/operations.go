@@ -6,20 +6,20 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/authz"
+	"github.com/eligion/cosmos-sdk/baseapp"
+	"github.com/eligion/cosmos-sdk/codec"
+	cdctypes "github.com/eligion/cosmos-sdk/codec/types"
+	"github.com/eligion/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/eligion/cosmos-sdk/simapp/params"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	simtypes "github.com/eligion/cosmos-sdk/types/simulation"
+	"github.com/eligion/cosmos-sdk/x/authz"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/authz/keeper"
+	sdkerrors "github.com/eligion/cosmos-sdk/types/errors"
+	"github.com/eligion/cosmos-sdk/x/authz/keeper"
 
-	banktype "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	banktype "github.com/eligion/cosmos-sdk/x/bank/types"
+	"github.com/eligion/cosmos-sdk/x/simulation"
 )
 
 // authz message types

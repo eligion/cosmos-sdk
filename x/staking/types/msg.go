@@ -3,10 +3,10 @@ package types
 import (
 	"bytes"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	codectypes "github.com/eligion/cosmos-sdk/codec/types"
+	cryptotypes "github.com/eligion/cosmos-sdk/crypto/types"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	sdkerrors "github.com/eligion/cosmos-sdk/types/errors"
 )
 
 // staking message types

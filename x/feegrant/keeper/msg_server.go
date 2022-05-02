@@ -3,10 +3,10 @@ package keeper
 import (
 	"context"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/eligion/cosmos-sdk/types"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/feegrant"
+	sdkerrors "github.com/eligion/cosmos-sdk/types/errors"
+	"github.com/eligion/cosmos-sdk/x/feegrant"
 )
 
 type msgServer struct {

@@ -7,16 +7,16 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/eligion/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/eligion/cosmos-sdk/simapp"
+	"github.com/eligion/cosmos-sdk/testutil/testdata"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	sdkerrors "github.com/eligion/cosmos-sdk/types/errors"
+	authtypes "github.com/eligion/cosmos-sdk/x/auth/types"
+	"github.com/eligion/cosmos-sdk/x/bank"
+	bankkeeper "github.com/eligion/cosmos-sdk/x/bank/keeper"
+	"github.com/eligion/cosmos-sdk/x/bank/types"
+	stakingtypes "github.com/eligion/cosmos-sdk/x/staking/types"
 )
 
 func TestInvalidMsg(t *testing.T) {

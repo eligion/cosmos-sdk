@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	"github.com/eligion/cosmos-sdk/types/module"
+	"github.com/eligion/cosmos-sdk/x/bank/types"
 )
 
 // RandomGenesisDefaultSendParam computes randomized allow all send transfers param for the bank module

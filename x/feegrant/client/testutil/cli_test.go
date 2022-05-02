@@ -5,7 +5,7 @@ package testutil
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/testutil/network"
+	"github.com/eligion/cosmos-sdk/testutil/network"
 
 	"github.com/stretchr/testify/suite"
 )

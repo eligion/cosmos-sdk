@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/eligion/cosmos-sdk/codec"
+	"github.com/eligion/cosmos-sdk/store/prefix"
+	sdk "github.com/eligion/cosmos-sdk/types"
 )
 
 const (

@@ -5,21 +5,21 @@ import (
 	"fmt"
 	"time"
 
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	minttypes "github.com/eligion/cosmos-sdk/x/mint/types"
 
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/keeper"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/eligion/cosmos-sdk/baseapp"
+	"github.com/eligion/cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/eligion/cosmos-sdk/crypto/types"
+	"github.com/eligion/cosmos-sdk/simapp"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	authtypes "github.com/eligion/cosmos-sdk/x/auth/types"
+	"github.com/eligion/cosmos-sdk/x/evidence/exported"
+	"github.com/eligion/cosmos-sdk/x/evidence/keeper"
+	"github.com/eligion/cosmos-sdk/x/evidence/types"
+	"github.com/eligion/cosmos-sdk/x/staking"
 )
 
 var (

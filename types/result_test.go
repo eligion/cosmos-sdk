@@ -13,9 +13,9 @@ import (
 	"github.com/tendermint/tendermint/libs/bytes"
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/eligion/cosmos-sdk/codec"
+	"github.com/eligion/cosmos-sdk/testutil/testdata"
+	sdk "github.com/eligion/cosmos-sdk/types"
 )
 
 type resultTestSuite struct {

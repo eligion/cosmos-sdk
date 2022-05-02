@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	clitestutil "github.com/eligion/cosmos-sdk/testutil/cli"
+	"github.com/eligion/cosmos-sdk/testutil/network"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	"github.com/eligion/cosmos-sdk/x/gov/client/cli"
+	"github.com/eligion/cosmos-sdk/x/gov/types"
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 )

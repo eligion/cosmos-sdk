@@ -17,17 +17,17 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	"github.com/cosmos/cosmos-sdk/store/cachemulti"
-	"github.com/cosmos/cosmos-sdk/store/dbadapter"
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	"github.com/cosmos/cosmos-sdk/store/listenkv"
-	"github.com/cosmos/cosmos-sdk/store/mem"
-	"github.com/cosmos/cosmos-sdk/store/tracekv"
-	"github.com/cosmos/cosmos-sdk/store/transient"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/eligion/cosmos-sdk/snapshots"
+	snapshottypes "github.com/eligion/cosmos-sdk/snapshots/types"
+	"github.com/eligion/cosmos-sdk/store/cachemulti"
+	"github.com/eligion/cosmos-sdk/store/dbadapter"
+	"github.com/eligion/cosmos-sdk/store/iavl"
+	"github.com/eligion/cosmos-sdk/store/listenkv"
+	"github.com/eligion/cosmos-sdk/store/mem"
+	"github.com/eligion/cosmos-sdk/store/tracekv"
+	"github.com/eligion/cosmos-sdk/store/transient"
+	"github.com/eligion/cosmos-sdk/store/types"
+	sdkerrors "github.com/eligion/cosmos-sdk/types/errors"
 )
 
 const (

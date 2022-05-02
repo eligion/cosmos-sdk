@@ -8,16 +8,16 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/eligion/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/eligion/cosmos-sdk/simapp"
+	"github.com/eligion/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/eligion/cosmos-sdk/simapp/params"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	banktypes "github.com/eligion/cosmos-sdk/x/bank/types"
+	"github.com/eligion/cosmos-sdk/x/genutil"
+	"github.com/eligion/cosmos-sdk/x/genutil/types"
+	"github.com/eligion/cosmos-sdk/x/staking"
+	stakingtypes "github.com/eligion/cosmos-sdk/x/staking/types"
 )
 
 var (

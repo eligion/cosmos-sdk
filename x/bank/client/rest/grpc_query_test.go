@@ -7,12 +7,12 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/eligion/cosmos-sdk/testutil"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	grpctypes "github.com/eligion/cosmos-sdk/types/grpc"
+	"github.com/eligion/cosmos-sdk/types/query"
+	"github.com/eligion/cosmos-sdk/types/rest"
+	"github.com/eligion/cosmos-sdk/x/bank/types"
 )
 
 func (s *IntegrationTestSuite) TestTotalSupplyGRPCHandler() {

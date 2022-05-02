@@ -5,15 +5,15 @@ package rest_test
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/x/auth/legacy/legacytx"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bankrest "github.com/cosmos/cosmos-sdk/x/bank/client/rest"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/eligion/cosmos-sdk/testutil/network"
+	"github.com/eligion/cosmos-sdk/types"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	"github.com/eligion/cosmos-sdk/types/errors"
+	"github.com/eligion/cosmos-sdk/types/rest"
+	"github.com/eligion/cosmos-sdk/x/auth/legacy/legacytx"
+	authtypes "github.com/eligion/cosmos-sdk/x/auth/types"
+	bankrest "github.com/eligion/cosmos-sdk/x/bank/client/rest"
+	banktypes "github.com/eligion/cosmos-sdk/x/bank/types"
 )
 
 func (s *IntegrationTestSuite) TestCoinSend() {

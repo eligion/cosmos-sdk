@@ -7,12 +7,12 @@ import (
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/params"
-	"github.com/cosmos/cosmos-sdk/x/params/types/proposal"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/eligion/cosmos-sdk/simapp"
+	sdk "github.com/eligion/cosmos-sdk/types"
+	govtypes "github.com/eligion/cosmos-sdk/x/gov/types"
+	"github.com/eligion/cosmos-sdk/x/params"
+	"github.com/eligion/cosmos-sdk/x/params/types/proposal"
+	stakingtypes "github.com/eligion/cosmos-sdk/x/staking/types"
 )
 
 type HandlerTestSuite struct {

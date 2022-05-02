@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/eligion/cosmos-sdk/types"
 )
 
 func (suite *KeeperTestSuite) TestTokensToConsensusPower() {

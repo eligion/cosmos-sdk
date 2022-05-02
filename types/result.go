@@ -10,8 +10,8 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/eligion/cosmos-sdk/codec"
+	codectypes "github.com/eligion/cosmos-sdk/codec/types"
 )
 
 var cdc = codec.NewLegacyAmino()
